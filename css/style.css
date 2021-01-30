@@ -1,0 +1,185 @@
+body{
+  background-color: black;
+}
+
+li{
+    list-style-type: none;
+    margin-top: -17px;
+}
+
+#ok{
+  background-color: #242424;
+  color:#A8A8A8;
+  border-style: hidden;
+  padding: 5px 8px 5px 8px;
+  font-size: 11pt;
+}
+
+#ok:hover{
+  background-color: #4D4D4D;
+}
+
+#search{
+  background-color: #505050;
+  border-style: groove;
+  padding: 4px 10px 2px 2px;
+}
+
+::placeholder {
+  font-size: 1.2em;
+  color:#B6B6B6;
+}
+
+.header, .site-content, .menubar{
+  width:83%;
+}
+
+.logo-text{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+
+.main{
+  background-image: url('70D8021.jpg');
+  background-position: top;
+  height: 1500px;
+  background-repeat: repeat-x;
+}
+
+.main background-image{
+  margin :35px 0 0 0;
+}
+
+.header{
+  height: 300px;
+}
+
+.slash{
+  color:white;
+}
+
+.logo-image{
+  width:40%;
+}
+
+.logo-image a{
+  text-decoration: none;
+  color:white;
+}
+
+ul.menu,ul.logo-text li {
+  float: right;
+  padding: 0 0 0 9px;
+}
+
+ul.menu li{
+  float: left;
+  padding: 0;
+}
+
+ul.logo-text li a{
+  color:white;
+}
+
+ul.logo-text li a:hover{
+  color:red;
+}
+
+
+
+ul.menu li a{
+  color:grey;
+  text-decoration: none;
+  position: relative;
+  right:13px;
+}
+
+ul.menu button:hover{
+  background-color: black;
+}
+
+.menu button{
+  padding: 5px 5px 5px 30px;
+  background-color: #3F3F3F;
+  border-color: black;
+  border-radius: 10px 10px 0 0;
+  border-style: ridge;
+  color:#A8A8A8
+  outline: none;
+}
+
+.movies{
+  width: 66%;
+  height: 200px;
+  margin-top: 44px;
+  background-color: #585858;
+}
+
+.movielist{
+  float:left;
+}
+
+.movielist li{
+  float:right;
+}
+
+.movieart{
+  width: 130px;
+  height: 180px;
+  margin-top: 10px;
+  padding-left: 1px;
+  border-width: 10px;
+  border: 2px solid #7F7F7F;
+}
+
+ul.movielist {
+  float: left;
+  padding: 0 0 0 9px;
+}
+
+ul.movielist li{
+  float: right;
+  padding: 0;
+}
+
+.menu{
+  position: relative;
+  top: 16px;
+}
+
+.maincontent{
+  margin-top: 20px;
+  height: 2180px;
+  width: 66%;
+  background-color: grey;
+  border-radius: 1%;
+  text-align: left;
+}
+
+#imgIW{
+  margin-top: 10px;
+  width: 98%;
+  height: 500px;
+  border: 4px solid black;
+  display: block;
+}
+
+.actors{
+  width:90%;
+  height: 705px;
+  margin: 0 auto;
+}
+
+.actorsPhoto{
+  width: 200px;
+  height: 200px;
+  text-align: left;
+}
+
+.actors img{
+  display: block;
+  margin-top: 50px;
+  border: 3px solid white;
+}
